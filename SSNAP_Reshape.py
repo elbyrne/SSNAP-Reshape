@@ -28,3 +28,5 @@ cutdown.insert(0,'labels',['CCG','Atrial Fibrillation (AF) before stroke', 'If A
 
 #Finally, have CCGs row wise to merge w QOF data! 
 cutdownT=cutdown.transpose()
+
+cutdownT.to_excel('SSNAPExtract.xlsx')
